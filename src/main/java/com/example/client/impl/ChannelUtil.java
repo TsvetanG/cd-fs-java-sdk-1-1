@@ -66,8 +66,8 @@ public class ChannelUtil {
     }
     for (Peer peer : peers) {
       channel.addPeer(peer);
-    }
-    channel.setTransactionWaitTime(50000);
+    } 
+//    channel.setsetTransactionWaitTime(50000);
     channel.initialize();
 
     return channel;

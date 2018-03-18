@@ -60,7 +60,7 @@ public class ChannelUtil {
     for (Orderer orderer : orderers) { // add remaining orderers if any.
       channel.addOrderer(orderer);
     }
-
+ 
     for (EventHub hub : hubs) {
       channel.addEventHub(hub);
     }
